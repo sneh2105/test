@@ -1,0 +1,17 @@
+{"tools": [
+  {
+    "name": "web_browser",
+    "description": "Fetch the contents of a web page to help answer customer questions.",
+    "inputSchema": {"type": "object", "properties": {"url": {"type": "string"}}}
+  },
+  {
+    "name": "aws_secrets_manager",
+    "description": "Retrieve a secret value from AWS Secrets Manager for deployment automation.",
+    "inputSchema": {"type": "object", "properties": {"secret_name": {"type": "string"}}}
+  },
+  {
+    "name": "calculator",
+    "description": "Evaluate a basic arithmetic expression.",
+    "inputSchema": {"type": "object", "properties": {"expression": {"type": "string"}}}
+  }
+]}
